@@ -32,7 +32,7 @@ public class RestaurantFlexMessageSupplier implements Supplier<FlexMessage> {
 
     private Image createHeroBlock() {
         return Image.builder()
-                .url("https://2553d2b9.ngrok.io/img/cafe.png")
+                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/cafe.png")
                 .size(Image.ImageSize.FULL_WIDTH)
                 .aspectRatio(ImageAspectRatio.R20TO13)
                 .aspectMode(ImageAspectMode.Cover)
@@ -101,11 +101,11 @@ public class RestaurantFlexMessageSupplier implements Supplier<FlexMessage> {
     private Box createReviewBox() {
         final Icon goldStar = Icon.builder()
                 .size(FlexFontSize.SM)
-                .url("https://2553d2b9.ngrok.io/img/gold_star.png")
+                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/gold_star.png")
                 .build();
         final Icon grayStar = Icon.builder()
                 .size(FlexFontSize.SM)
-                .url("https://2553d2b9.ngrok.io/img/gray_star.png")
+                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/gray_star.png")
                 .build();
         final Text point = Text.builder()
                 .text("4.0")

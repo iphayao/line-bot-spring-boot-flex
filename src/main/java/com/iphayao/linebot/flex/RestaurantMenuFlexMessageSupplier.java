@@ -30,7 +30,7 @@ public class RestaurantMenuFlexMessageSupplier implements Supplier<FlexMessage> 
 
     private Image createHeroBlock() {
         return Image.builder()
-                .url("https://2553d2b9.ngrok.io/img/berger.png")
+                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/berger.png")
                 .size(Image.ImageSize.FULL_WIDTH)
                 .aspectRatio(Image.ImageAspectRatio.R20TO13)
                 .aspectMode(Image.ImageAspectMode.Cover)
@@ -73,7 +73,7 @@ public class RestaurantMenuFlexMessageSupplier implements Supplier<FlexMessage> 
                 .layout(FlexLayout.BASELINE)
                 .contents(asList(
                         Icon.builder()
-                                .url("https://2553d2b9.ngrok.io/img/regular.png").build(),
+                                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/regular.png").build(),
                         Text.builder().text("$10.5")
                                 .weight(Text.TextWeight.BOLD)
                                 .margin(FlexMarginSize.SM)
@@ -91,7 +91,7 @@ public class RestaurantMenuFlexMessageSupplier implements Supplier<FlexMessage> 
                 .layout(FlexLayout.BASELINE)
                 .contents(asList(
                         Icon.builder()
-                                .url("https://2553d2b9.ngrok.io/img/large.png").build(),
+                                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/large.png").build(),
                         Text.builder().text("$15.5")
                                 .weight(Text.TextWeight.BOLD)
                                 .margin(FlexMarginSize.SM)

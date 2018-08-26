@@ -22,11 +22,11 @@ public class CatalogueFlexMessageSupplier implements Supplier<FlexMessage> {
     public FlexMessage get() {
         final Bubble bubble1 = createBubble("Arm Chair, White",
                 "49.99",
-                "https://2553d2b9.ngrok.io/img/bubble1.png",
+                "https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/bubble1.png",
                 false);
         final Bubble bubble2 = createBubble("Metal Desk Lamp",
                 "11.99",
-                "https://2553d2b9.ngrok.io/img/bubble2.png",
+                "https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/bubble2.png",
                 true);
         final Bubble seeMore = createSeeMoreBubble();
         final Carousel carousel = Carousel.builder()

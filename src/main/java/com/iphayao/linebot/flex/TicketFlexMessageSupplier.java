@@ -28,7 +28,7 @@ public class TicketFlexMessageSupplier implements Supplier<FlexMessage> {
 
     private Image createHeroBlock() {
         return Image.builder()
-                .url("https://2553d2b9.ngrok.io/img/movie.png")
+                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/movie.png")
                 .size(Image.ImageSize.FULL_WIDTH)
                 .aspectRatio(Image.ImageAspectRatio.R20TO13)
                 .aspectMode(Image.ImageAspectMode.Cover)
@@ -61,11 +61,11 @@ public class TicketFlexMessageSupplier implements Supplier<FlexMessage> {
     private Box createPreviewBox() {
         final Icon goldStart = Icon.builder()
                 .size(FlexFontSize.SM)
-                .url("https://2553d2b9.ngrok.io/img/gold_star.png")
+                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/gold_star.png")
                 .build();
         final Icon grayStart = Icon.builder()
                 .size(FlexFontSize.SM)
-                .url("https://2553d2b9.ngrok.io/img/gray_star.png")
+                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/gray_star.png")
                 .build();
         final Text point = Text.builder()
                 .text("4.0")
@@ -117,7 +117,7 @@ public class TicketFlexMessageSupplier implements Supplier<FlexMessage> {
     private Box createQRCodeBox() {
         final Spacer spacer = Spacer.builder().build();
         final Image qrImage = Image.builder()
-                .url("https://2553d2b9.ngrok.io/img/qrcode.png")
+                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/qrcode.png")
                 .aspectMode(Image.ImageAspectMode.Cover)
                 .size(Image.ImageSize.XL)
                 .build();

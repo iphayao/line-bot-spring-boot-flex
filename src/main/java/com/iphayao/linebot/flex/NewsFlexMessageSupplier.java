@@ -43,7 +43,7 @@ public class NewsFlexMessageSupplier implements Supplier<FlexMessage> {
 
     private Image createHeroBlock() {
         return Image.builder()
-                .url("https://2553d2b9.ngrok.io/img/news.png")
+                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/news.png")
                 .size(Image.ImageSize.FULL_WIDTH)
                 .aspectRatio(Image.ImageAspectRatio.R20TO13)
                 .aspectMode(Image.ImageAspectMode.Cover)
@@ -62,14 +62,14 @@ public class NewsFlexMessageSupplier implements Supplier<FlexMessage> {
 
     private Box createThumbnailsBox() {
         final Image imagesContent1 = Image.builder()
-                .url("https://2553d2b9.ngrok.io/img/thumbnail1.png")
+                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/thumbnail1.png")
                 .aspectMode(Image.ImageAspectMode.Cover)
                 .aspectRatio(Image.ImageAspectRatio.R4TO3)
                 .size(Image.ImageSize.SM)
                 .gravity(FlexGravity.BOTTOM)
                 .build();
         final Image imagesContent2 = Image.builder()
-                .url("https://2553d2b9.ngrok.io/img/thumbnail2.png")
+                .url("https://raw.githubusercontent.com/iphayao/line-bot-spring-boot-flex/master/src/main/resources/img/thumbnail2.png")
                 .aspectMode(Image.ImageAspectMode.Cover)
                 .aspectRatio(Image.ImageAspectRatio.R4TO3)
                 .size(Image.ImageSize.SM)
