@@ -1,0 +1,77 @@
+size:
+  width: 2500
+  height: 1686
+selected: true
+name: Flex Message
+chatBarText: Flex Menu
+areas:
+-
+  bounds:
+    x: 0
+    y: 0
+    width: 625
+    height: 843
+  action:
+    type: message
+    label: Restaurant
+    text: 'Flex Restaurant'
+-
+  bounds:
+    x: 625
+    y: 0
+    width: 625
+    height: 843
+  action:
+    type: message
+    label: menu
+    text: 'Flex Menu'
+-
+  bounds:
+    x: 1250
+    y: 0
+    width: 625
+    height: 843
+  action:
+    type: message
+    label: receipt
+    text: 'Flex Receipt'
+-
+  bounds:
+    x: 0
+    y: 843
+    width: 625
+    height: 843
+  action:
+    type: message
+    label: news
+    text: 'Flex News'
+-
+  bounds:
+    x: 625
+    y: 843
+    width: 625
+    height: 843
+  action:
+    type: message
+    label: ticket
+    text: 'Flex Ticket'
+-
+  bounds:
+    x: 1250
+    y: 843
+    width: 625
+    height: 843
+  action:
+    type: message
+    label: catalogue
+    text: 'Flex Catalogue'
+-
+  bounds:
+    x: 1875
+    y: 0
+    width: 625
+    height: 1685
+  action:
+    type: message
+    label: back
+    text: 'Flex Back'
