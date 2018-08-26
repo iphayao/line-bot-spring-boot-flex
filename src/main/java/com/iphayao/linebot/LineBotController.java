@@ -12,13 +12,13 @@ import com.linecorp.bot.model.message.TextMessage;
 import com.linecorp.bot.model.response.BotApiResponse;
 import com.linecorp.bot.spring.boot.annotation.EventMapping;
 import com.linecorp.bot.spring.boot.annotation.LineMessageHandler;
+
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
-import sun.plugin2.message.TextEventMessage;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
